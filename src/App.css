@@ -366,9 +366,22 @@ textarea {
 }
 
 .daily-card {
-  width: 300px;
-  height: 250px;
+  width: 185px;
+  height: 130px;
   margin: 10px;
   border: 1px solid black;
   border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+}
+
+.current-day {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.center-spinner {
+  margin: auto;
 }
