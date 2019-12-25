@@ -375,6 +375,7 @@ textarea {
 
 .cards {
   display: flex;
+  margin-bottom: 10%;
 }
 
 .current-day {
