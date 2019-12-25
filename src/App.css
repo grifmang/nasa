@@ -16,13 +16,15 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
+    margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
+
+html, body {margin: 0; height: 100%; overflow: hidden}
 
 /* make sure to set some focus styles for accessibility */
 :focus {
@@ -325,15 +327,6 @@ table {
     border-spacing: 0;
 }
 
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
-
-
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -369,20 +362,30 @@ textarea {
   width: 185px;
   height: 130px;
   margin: 10px;
-  border: 1px solid black;
+  border: 1px solid whitesmoke;
   border-radius: 10px;
 }
 
 .cards {
   display: flex;
   margin-bottom: 10%;
+  color: whitesmoke;
 }
 
 .current-day {
   display: flex;
   justify-content: space-evenly;
+  color: whitesmoke
 }
 
 .center-spinner {
   margin: auto;
+}
+
+.main-container {
+    color: whitesmoke;
+}
+
+.title-description {
+    padding-top: 30%;
 }

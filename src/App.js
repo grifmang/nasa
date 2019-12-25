@@ -92,8 +92,10 @@ function App() {
       backgroundRepeat: 'no-repeat',
       height: '100vh'
     }}>
-      <h2>Latest Temps from Elysium Planitia on Mars</h2>
-      <p>Daily weather measurements (temperature, wind, pressure) on the surface of Mars at Elysium Panitia. A flat, smooth plain near Mars' equator.</p>
+      <div className='title-description'>
+        <h2>Latest Temps from Elysium Planitia on Mars</h2>
+        <p>Daily weather measurements (temperature, wind, pressure) on the surface of Mars at Elysium Panitia. A flat, smooth plain near Mars' equator.</p>
+      </div>
       {solData.length > 0 ?
       <>
       <div className='current-day'>
